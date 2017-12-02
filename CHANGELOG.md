@@ -1,4 +1,8 @@
 # UNRELEASED
+  - Changes from 5.14.3:
+      - FIXED #4704: Fixed regression in bearings reordering introduced in 5.13 [#4704](https://github.com/Project-OSRM/osrm-backend/issues/4704)
+
+# 5.14.3
   - Changes from 5.14.2:
     - Bugfixes:
       - FIXED #4754: U-Turn penalties are applied to straight turns.
@@ -14,8 +18,8 @@
       - ADDED: Exposed new `max_radiuses_map_matching` option from `EngingConfig` options
     - Tools:
       - ADDED: New osrm-routed `max_radiuses_map_matching` command line flag to optionally set a maximum radius for map matching
-   - Internals
-      - Guidance refactoring step to decouple intersection connectivity analysis and turn instructions generation
+    - Guidance:
+      - CHANGED #4706: Guidance refactoring step to decouple intersection connectivity analysis and turn instructions generation [#4706](https://github.com/Project-OSRM/osrm-backend/pull/4706)
 
 # 5.14.1
   - Changes from 5.14.0
