@@ -14,6 +14,8 @@
       - ADDED: Exposed new `max_radiuses_map_matching` option from `EngingConfig` options
     - Tools:
       - ADDED: New osrm-routed `max_radiuses_map_matching` command line flag to optionally set a maximum radius for map matching
+   - Internals
+      - Guidance refactoring step to decouple intersection connectivity analysis and turn instructions generation
 
 # 5.14.1
   - Changes from 5.14.0
